@@ -12,7 +12,7 @@ import { EditorTabs, FilterTabs, DecalTypes } from "../config/constants";
 import { fadeAnimation, slideAnimation } from "../config/motion";
 import {
   CustomButton,
-  AIpicker,
+  AIPicker,
   FilePicker,
   Tab,
   ColorPicker,
@@ -43,7 +43,7 @@ const Customizer = () => {
         break;
       case "aipicker":
         return (
-          <AIpicker
+          <AIPicker
             prompt={prompt}
             setPrompt={setPrompt}
             generatingImg={generatingImg}
